@@ -1,0 +1,22 @@
+{
+  "name": "node-mongo-oplog",
+  "version": "0.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "dotenv": "^1.2.0",
+    "mongo-oplog": "^1.0.1"
+  },
+  "devDependencies": {
+    "open": "~0.0.4",
+    "supertest": "~0.11.0",
+    "should": "~3.3.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "private": true
+}
